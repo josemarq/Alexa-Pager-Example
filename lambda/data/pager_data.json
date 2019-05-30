@@ -1,0 +1,76 @@
+{
+    "myData": {
+        "type": "object",
+        "objectId": "mySampleID",
+            "properties": {
+                "karaokeSsml": "<speak>Este es el texto a leer después del suspenso!</speak>"
+                },
+    "transformers": [
+      {
+        "inputPath": "karaokeSsml",
+        "outputName": "karaokeSpeech",
+        "transformer": "ssmlToSpeech"
+      },
+      {
+        "inputPath": "karaokeSsml",
+        "outputName": "karaokeText",
+        "transformer": "ssmlToText"
+    }
+    ],
+        "backgroundImage": {
+            "contentDescription": null,
+            "smallSourceUrl": null,
+            "largeSourceUrl": null,
+            "sources": [
+                {
+                    "url": "https://i.postimg.cc/3NBGWxgS/00024-MTS-snapshot-00-18-2018-05-18-22-16-16.jpg",
+                    "size": "small",
+                    "widthPixels": 0,
+                    "heightPixels": 0,
+                    "overlayColor": "rgba(0, 0, 0, 0.1)"
+                },
+                {
+                    "url": "https://i.postimg.cc/3NBGWxgS/00024-MTS-snapshot-00-18-2018-05-18-22-16-16.jpg",
+                    "size": "large",
+                    "widthPixels": 0,
+                    "heightPixels": 0,
+                    "overlayColor": "rgba(0, 0, 0, 0.1)"
+                }
+            ]
+        },
+        "backgroundImage2": {
+            "contentDescription": null,
+            "smallSourceUrl": null,
+            "largeSourceUrl": null,
+            "sources": [
+                {
+                    "url": "https://i.postimg.cc/wTpRJLM1/DSC02348.jpg",
+                    "size": "small",
+                    "widthPixels": 0,
+                    "heightPixels": 0,
+                    "overlayColor": "rgba(0, 0, 0, 0.1)"
+                },
+                {
+                    "url": "https://i.postimg.cc/wTpRJLM1/DSC02348.jpg",
+                    "size": "large",
+                    "widthPixels": 0,
+                    "heightPixels": 0,
+                    "overlayColor": "rgba(0, 0, 0, 0.1)"
+                }
+            ]
+        },
+        "textContent": {
+            "primaryText1": {
+                "type": "PlainText",
+                "text": "Suspenso"
+                 },
+            "primaryText2": {
+                "type": "PlainText",
+                "text": "Ganador!"
+            }
+        },
+        "logoUrl": "https://i.postimg.cc/KY95hk0L/logo-transparentemp.png",
+        "hintText1": "Hint Página 1",
+        "hintText2": "Hint Página 2"
+    }
+}
