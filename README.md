@@ -1,4 +1,6 @@
 # Alexa-Pager-Example
-Alexa APL Pager Example, load second page a speak another phrase.
+Alexa APL Pager Example, load second page and speak another phrase.
+
+Mix of Pager and Karaoke functions.
 
 
